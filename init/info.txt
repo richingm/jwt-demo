@@ -1,3 +1,0 @@
-/init
-
-系统启动（systemd, upstart, sysv）和进程管理器/监督器（runit, supervisord）配置。
