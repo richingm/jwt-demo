@@ -1,0 +1,3 @@
+/internal/service
+
+实现了api定义的服务层,类似DDD的application层,处理DTO到biz领域实体的转换(DTO->DO),同时协同各类biz交互,但是不应处理复杂逻辑。

@@ -1,0 +1,3 @@
+/api
+
+api协议定义目录,xxapi.proto protobuf文件, 以及生成的go文件。我们通常把api文档直接在proto文件中描述。

@@ -1,0 +1,6 @@
+/build
+
+
+打包和持续集成
+把你的云（AMI）、容器（Docker）、操作系统（deb、rpm、pkg）打包配置和脚本放在/build/package目录下。
+把你的CI（travis, circle, drone）配置和脚本放在/build/ci目录下。注意，一些 CI 工具（例如 Travis CI）对其配置文件的位置非常挑剔。试着把配置文件放在/build/ci目录下，在可能的情况下把它们链接到CI工具所期望的位置（如果不是这样，也不用担心，如果把这些文件放在根目录下会让你的生活更轻松:-)）。

@@ -1,0 +1,5 @@
+/internal/data
+
+业务数据访问, 包含cache, db等封装。
+data类似DDD的repo，repo接口在这里定义,使用依赖倒置的原则。
+我们可能会把data与dao混淆在一起,data偏重业务的含义，他所要做的是将领域对象重新拿出来,我们去掉了DDD的infra层。
